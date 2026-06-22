@@ -1,4 +1,4 @@
-const API = 'http://localhost:8080';
+const API = 'http://' + window.location.hostname + ':8080';
 $(document).ready(function() {
     checkAuth();
     
